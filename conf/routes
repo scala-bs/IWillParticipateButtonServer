@@ -1,0 +1,9 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET     /cookie/:cookie    controllers.Application.get(cookie: String)
+POST    /cookie            controllers.Application.post
+
+GET     /reset             controllers.Application.reset
+GET     /count             controllers.Application.count
